@@ -23,6 +23,10 @@ class DrawerMenu extends StatelessWidget {
               color: Theme.of(context).primaryColor,
             ),
           ),
+          getListTile('Profile', onTap: () {
+            Navigator.pushReplacementNamed(context, '/');
+          }),
+          getLine(),
         ],
       ),
     );
@@ -39,7 +43,7 @@ class DrawerMenu extends StatelessWidget {
 
   Widget getListTile(title, {Function onTap}) {
     return ListTile(
-      title: Text(title),
+      title: Text(title, style: TextStyle(color: Colors.cyan, fontSize: 18.0,),),
       onTap: onTap,
     );
   }
