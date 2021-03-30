@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/DrawerMenu.dart';
 
 class ProfileUI extends StatelessWidget {
   @override
@@ -10,6 +11,7 @@ class ProfileUI extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
+      drawer: DrawerMenu(),
       body: Column(
         children: <Widget>[
           Stack(
