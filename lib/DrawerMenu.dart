@@ -31,6 +31,10 @@ class DrawerMenu extends StatelessWidget {
             Navigator.pushReplacementNamed(context, 'Dashboard');
           }),
           getLine(),
+          getListTile('Travel Booking', onTap: () {
+            Navigator.pushReplacementNamed(context, 'TravelBooking');
+          }),
+          getLine(),
         ],
       ),
     );
