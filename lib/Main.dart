@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/DashboardUI.dart';
 import 'package:flutter_ui/ProfileUI.dart';
 
 void main() {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => ProfileUI(),
+        'Dashboard': (context) => DashboardUI(),
       },
     );
   }

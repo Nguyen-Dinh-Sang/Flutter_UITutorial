@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  flutter_svg: ^0.19.3
   flutter_test:
     sdk: flutter
 
@@ -43,6 +44,19 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # thêm image, fonts
+  assets:
+    - assets/images/top_header.png
+
+  fonts:
+    - family: Montserrat Regular
+      fonts:
+        - asset: assets/fonts/mo_re.ttf
+
+    - family: Montserrat Medium
+      fonts:
+        - asset: assets/fonts/mo_me.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
