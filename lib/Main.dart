@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/DashboardUI.dart';
 import 'package:flutter_ui/ProfileUI.dart';
-import 'package:flutter_ui/travelbooking/screens/TravelBookingUI.dart';
+import 'package:flutter_ui/travel_booking/screens/TravelBookingUI.dart';
 
 void main() {
   runApp(MyApp());

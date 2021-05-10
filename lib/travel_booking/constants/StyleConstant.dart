@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_ui/travelbooking/constants/ColorConstant.dart';
+import 'package:flutter_ui/travel_booking/constants/ColorConstant.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // Style for title

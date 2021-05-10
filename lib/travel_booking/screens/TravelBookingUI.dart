@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/DrawerMenu.dart';
-import 'package:flutter_ui/travelbooking/constants/ColorConstant.dart';
+import 'package:flutter_ui/travel_booking/constants/ColorConstant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_ui/travelbooking/constants/StyleConstant.dart';
-import 'package:flutter_ui/travelbooking/models/CarouselModel.dart';
-import 'package:flutter_ui/travelbooking/models/PopularDestinationModel.dart';
-import 'package:flutter_ui/travelbooking/widgets/BottomNavigationTravelkuy.dart';
+import 'package:flutter_ui/travel_booking/constants/StyleConstant.dart';
+import 'package:flutter_ui/travel_booking/models/CarouselModel.dart';
+import 'package:flutter_ui/travel_booking/models/PopularDestinationModel.dart';
+import 'package:flutter_ui/travel_booking/widgets/BottomNavigationTravelkuy.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
